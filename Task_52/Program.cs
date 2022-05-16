@@ -29,7 +29,7 @@ void Average(int[,] array)
         int result = 0;
         for (int j = 0;  j < array.GetLength(0);  j++)
             result = array[j, i] + result;
-            Console.Write($"Среднее арифметическое {i + 1} столбца = {result / array.GetLength(0)} ");
+            Console.Write($"Среднее арифметическое {i + 1} столбца = {(double) result / array.GetLength(0)} ");
             System.Console.WriteLine();
     }
     System.Console.WriteLine();
